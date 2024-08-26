@@ -9,13 +9,43 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
+    <div class="header-container">
         <!-- Logo -->
-        <!-- <img src="resources/views/Logo/logo2.png" alt="Logo" class="logo"> -->
+        <img class="logo" src="https://umgnaranjo.com/wp-content/uploads/2020/05/UMG-logotipo.png" alt="Logo" class="logo"> 
 
         <!-- Título principal -->
-        <h1 id="titulop" class="main-title" >Convertidor de Texto a Binario y Viceversa</h1>
+        <h1  class="main-title" >Convertidor de Texto a Binario y Viceversa</h1>
+    </div>
 
+    <style>
+
+    .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #99ffff; /* Color de fondo del div */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados, opcional */
+    }
+
+    .logo {
+    margin-right: 15px; /* Espacio entre el logo y el título */
+    max-height: 60px; /* Ajusta la altura máxima del logo */
+    }
+
+    .main-title {
+    font-size: 24px;
+    color: #333; /* Color del título */
+    margin: 0; /* Elimina el margen del h1 */
+    text-align: center;
+    }
+    </style>
+
+
+
+
+
+    <div class="container">
         <div class="row">
             <div class="col-md-6 offset-md-3">
                 <div class="card">
